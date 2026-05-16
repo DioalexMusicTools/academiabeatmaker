@@ -196,7 +196,7 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative aspect-[3/4] rounded-[32px] overflow-hidden border border-zinc-800 shadow-2xl shadow-[#fbe600]/10">
             <img
-              src="/dioalex.jpg"
+              src="/dioalex.png"
               alt="Dioalex Beatz en el estudio"
               className="w-full h-full object-cover object-top"
             />
