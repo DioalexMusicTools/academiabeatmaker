@@ -10,9 +10,13 @@ export default function Home() {
 
         <div className="relative max-w-7xl mx-auto px-6 py-24 lg:py-32 grid lg:grid-cols-2 gap-14 items-center">
           <div>
-            <span className="inline-block px-4 py-2 rounded-full bg-[#fbe600]/15 border border-[#fbe600] text-sm font-medium mb-6">
-              Academia Beatmaker • Formación para Productores Musicales
-            </span>
+          <div className="mb-6 flex justify-center lg:justify-start">
+  <img
+    src="/top-store.png"
+    alt="Top Store"
+    className="h-21 md:h-20 lg:h-20 w-auto"
+  />
+</div>
 
             <h1 className="text-5xl lg:text-7xl font-black leading-tight mb-6">
               Aprende Producción Musical desde Cero y crea beats profesionales.
