@@ -56,7 +56,7 @@ export default function Home() {
           <div className="relative">
             <div className="aspect-square rounded-[40px] overflow-hidden border border-zinc-800 shadow-2xl shadow-[#fbe600]/20 bg-zinc-900">
               <img
-                src="https://images.unsplash.com/photo-1511379938547-c1f69419868d?q=80&w=1200&auto=format&fit=crop"
+                src="/produccion-musical-101.png"
                 alt="Producción Musical"
                 className="w-full h-full object-cover"
               />
@@ -75,7 +75,7 @@ export default function Home() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <img
-              src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?q=80&w=1200&auto=format&fit=crop"
+              src="/productores-para-productores.png"
               alt="Academia Beatmaker"
               className="rounded-[32px] border border-zinc-800 w-full"
             />
@@ -85,7 +85,7 @@ export default function Home() {
               Sobre Nosotros
             </span>
             <h2 className="text-4xl lg:text-5xl font-black mt-4 mb-6 leading-tight">
-              Academia creada para productores musicales modernos.
+              Academia Creada por Productores para Productores.
             </h2>
             <p className="text-zinc-300 leading-relaxed mb-6 text-lg">
               En Academia Beatmaker enseñamos producción musical de manera práctica y enfocada en resultados reales. Nuestro objetivo es ayudarte a crear música profesional, desarrollar tu identidad sonora y convertir tu talento en una oportunidad de negocio.
@@ -194,7 +194,6 @@ export default function Home() {
         </h2>
 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
-          {/* Reemplaza /dioalex.jpg con la foto real en la carpeta /public */}
           <div className="relative aspect-[3/4] rounded-[32px] overflow-hidden border border-zinc-800 shadow-2xl shadow-[#fbe600]/10">
             <img
               src="/dioalex.jpg"
@@ -223,7 +222,7 @@ export default function Home() {
                 <p className="text-zinc-400 text-sm mt-1">Estudiantes formados</p>
               </div>
               <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-6">
-                <h4 className="text-4xl font-black text-[#fbe600]">+5 años</h4>
+                <h4 className="text-4xl font-black text-[#fbe600]">+15 años</h4>
                 <p className="text-zinc-400 text-sm mt-1">En producción musical</p>
               </div>
             </div>
@@ -259,19 +258,21 @@ export default function Home() {
           <div className="grid lg:grid-cols-3 gap-6">
             <div className="bg-black border border-zinc-800 rounded-3xl p-8">
               <p className="text-zinc-300 mb-6 leading-relaxed">
-                "Pasé de no entender FL Studio a crear mis propios beats completos en pocas semanas."
+                "Contenido super interesante y de alta calidad, por precios muy bajos.
+                Estoy sorprendido y plenamente satisfecho del trato recibido. ¡Muchas Gracias!"
               </p>
               <div>
-                <h4 className="font-bold">Carlos M.</h4>
+                <h4 className="font-bold">Simone Pisani.</h4>
                 <p className="text-zinc-500 text-sm">Productor Musical</p>
               </div>
             </div>
             <div className="bg-black border border-zinc-800 rounded-3xl p-8">
               <p className="text-zinc-300 mb-6 leading-relaxed">
-                "Las clases son súper prácticas y fáciles de entender. Full recomendado."
+                "Excelente curso, mucha información valiosa y te guían paso a paso en el proceso
+                con la debida atención logras el objetivo."
               </p>
               <div>
-                <h4 className="font-bold">Andrés R.</h4>
+                <h4 className="font-bold">Prakata.</h4>
                 <p className="text-zinc-500 text-sm">Beatmaker</p>
               </div>
             </div>
@@ -295,23 +296,34 @@ export default function Home() {
             <span className="text-[#fbe600] font-semibold uppercase tracking-widest text-sm">
               Preguntas Frecuentes
             </span>
-            <h2 className="text-4xl lg:text-5xl font-black mt-4">
+            <h2 className="text-4xl lg:text-5xl font-black mt-4 mb-4">
               Todo lo que necesitas saber
             </h2>
+            <p className="text-zinc-400 text-lg">
+              Si tienes alguna otra duda, escríbenos por WhatsApp.
+            </p>
           </div>
 
           <div className="space-y-6">
             <div className="bg-black border border-zinc-800 rounded-2xl p-6">
-              <h3 className="font-bold text-xl mb-3">¿Necesito experiencia previa?</h3>
-              <p className="text-zinc-400">No. El curso está diseñado para personas que comienzan desde cero.</p>
+              <h3 className="font-bold text-xl mb-3">¿Necesito experiencia previa en producción musical?</h3>
+              <p className="text-zinc-400 leading-relaxed">No. Producción Musical 101 está diseñado para comenzar desde cero. No necesitas saber nada de música ni de software — te enseñamos todo paso a paso desde la primera clase.</p>
             </div>
             <div className="bg-black border border-zinc-800 rounded-2xl p-6">
-              <h3 className="font-bold text-xl mb-3">¿Necesito una computadora potente?</h3>
-              <p className="text-zinc-400">Puedes comenzar con una computadora básica siempre que soporte FL Studio.</p>
+              <h3 className="font-bold text-xl mb-3">¿Qué equipo necesito para tomar el curso?</h3>
+              <p className="text-zinc-400 leading-relaxed">Solo necesitas una computadora (Mac o PC) que soporte FL Studio. No necesitas una computadora potente para empezar. Auriculares o parlantes son opcionales pero recomendados.</p>
             </div>
             <div className="bg-black border border-zinc-800 rounded-2xl p-6">
-              <h3 className="font-bold text-xl mb-3">¿Las clases quedan grabadas?</h3>
-              <p className="text-zinc-400">Sí. Tendrás acceso a las grabaciones para repasar el contenido.</p>
+              <h3 className="font-bold text-xl mb-3">¿Las clases son en vivo o grabadas?</h3>
+              <p className="text-zinc-400 leading-relaxed">Las clases son en vivo para que puedas interactuar directamente con el instructor. Además, todas las sesiones quedan grabadas y tendrás acceso a ellas para repasar el contenido cuando quieras.</p>
+            </div>
+            <div className="bg-black border border-zinc-800 rounded-2xl p-6">
+              <h3 className="font-bold text-xl mb-3">¿Cuánto dura el curso y cuál es la inversión?</h3>
+              <p className="text-zinc-400 leading-relaxed">El curso tiene una duración de 8 semanas. Para conocer el precio actual y los métodos de pago disponibles, escríbenos por WhatsApp y te damos toda la información.</p>
+            </div>
+            <div className="bg-black border border-zinc-800 rounded-2xl p-6">
+              <h3 className="font-bold text-xl mb-3">¿Recibo algún certificado al finalizar?</h3>
+              <p className="text-zinc-400 leading-relaxed">Sí. Al completar el curso recibes un certificado digital de Academia Beatmaker que acredita tu formación en Producción Musical.</p>
             </div>
           </div>
         </div>
@@ -330,12 +342,16 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="https://wa.me/message/FPWKB6V27UDHD1"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-black text-white px-8 py-4 rounded-2xl font-bold hover:bg-zinc-900 transition"
             >
               Hablar por WhatsApp
             </a>
             <a
               href="https://www.instagram.com/academiabeatmaker"
+              target="_blank"
+              rel="noopener noreferrer"
               className="border border-black/30 px-8 py-4 rounded-2xl font-bold hover:bg-black/10 transition"
             >
               Ver Instagram
@@ -352,9 +368,30 @@ export default function Home() {
             <p className="text-zinc-500 mt-2">Formación moderna para productores musicales.</p>
           </div>
           <div className="flex gap-6 text-zinc-400">
-            <a href="https://www.instagram.com/academiabeatmaker" className="hover:text-white transition">Instagram</a>
-            <a href="https://wa.me/message/FPWKB6V27UDHD1" className="hover:text-white transition">WhatsApp</a>
-            <a href="https://www.youtube.com/@academiabeatmaker" className="hover:text-white transition">YouTube</a>
+            <a
+              href="https://www.instagram.com/academiabeatmaker"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              Instagram
+            </a>
+            <a
+              href="https://wa.me/message/FPWKB6V27UDHD1"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              WhatsApp
+            </a>
+            <a
+              href="https://www.youtube.com/@academiabeatmaker"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition"
+            >
+              YouTube
+            </a>
           </div>
         </div>
       </footer>
