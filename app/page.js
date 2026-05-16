@@ -150,9 +150,9 @@ export default function Home() {
 
             <div className="bg-[#fbe600] rounded-3xl p-8 text-black flex flex-col justify-between">
               <div>
-                <p className="font-bold uppercase tracking-widest mb-4 text-sm">Próxima Cohorte</p>
+                <p className="font-bold uppercase tracking-widest mb-4 text-sm">Inscripciones Abiertas</p>
                 <h3 className="text-5xl font-black mb-4">Junio 2026</h3>
-                <p className="font-medium mb-8">Cupos limitados disponibles.</p>
+                <p className="font-medium mb-8">LIMITADO A 10 CUPOS.</p>
               </div>
               <a
                 href="#inscripcion"
@@ -365,7 +365,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-6">
           <div>
             <h3 className="text-2xl font-black">Academia Beatmaker</h3>
-            <p className="text-zinc-500 mt-2">Formación moderna para productores musicales.</p>
+            <p className="text-zinc-500 mt-2">Creada por Productores para Productores.</p>
           </div>
           <div className="flex gap-6 text-zinc-400">
             <a
