@@ -68,7 +68,7 @@ export default function Home() {
             <div className="absolute -bottom-8 -left-8 bg-zinc-950 border border-zinc-800 rounded-3xl p-6 max-w-xs shadow-2xl">
               <p className="text-sm text-zinc-400 mb-2">Próximo Curso</p>
               <h3 className="font-black text-2xl mb-2">Producción Musical 101</h3>
-              <p className="text-zinc-300 text-sm">Inicia Junio 2026 • Cupos Limitados</p>
+              <p className="text-zinc-300 text-sm">Inicia Agosto 2026 • Cupos Limitados</p>
             </div>
           </div>
         </div>
@@ -155,7 +155,7 @@ export default function Home() {
             <div className="bg-[#fbe600] rounded-3xl p-8 text-black flex flex-col justify-between">
               <div>
                 <p className="font-bold uppercase tracking-widest mb-4 text-sm">Inscripciones Abiertas</p>
-                <h3 className="text-5xl font-black mb-4">Junio 2026</h3>
+                <h3 className="text-5xl font-black mb-4">Agosto 2026</h3>
                 <p className="font-medium mb-8">LIMITADO A 10 CUPOS.</p>
               </div>
               <a
@@ -174,7 +174,7 @@ export default function Home() {
             </div>
             <div className="bg-black border border-zinc-800 rounded-2xl p-6">
               <h4 className="font-bold mb-2">Duración</h4>
-              <p className="text-zinc-400">8 Semanas</p>
+              <p className="text-zinc-400">12 Semanas</p>
             </div>
             <div className="bg-black border border-zinc-800 rounded-2xl p-6">
               <h4 className="font-bold mb-2">Nivel</h4>
@@ -323,7 +323,7 @@ export default function Home() {
             </div>
             <div className="bg-black border border-zinc-800 rounded-2xl p-6">
               <h3 className="font-bold text-xl mb-3">¿Cuánto dura el curso y cuál es la inversión?</h3>
-              <p className="text-zinc-400 leading-relaxed">El curso tiene una duración de 8 semanas. Para conocer el precio actual y los métodos de pago disponibles, escríbenos por WhatsApp y te damos toda la información.</p>
+              <p className="text-zinc-400 leading-relaxed">El curso tiene una duración de 12 semanas. Para conocer el precio actual y los métodos de pago disponibles, escríbenos por WhatsApp y te damos toda la información.</p>
             </div>
             <div className="bg-black border border-zinc-800 rounded-2xl p-6">
               <h3 className="font-bold text-xl mb-3">¿Recibo algún certificado al finalizar?</h3>
