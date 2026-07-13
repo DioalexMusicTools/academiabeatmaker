@@ -1,62 +1,53 @@
-# Academia Beatmaker — Landing Page
+# Sitio completo de Dioalex
 
-## Paso 1 — Agregar la foto de Dioalex
+Incluye:
 
-1. Renombra la foto `DSC07290.JPG` a `dioalex.jpg`
-2. Cópiala dentro de la carpeta `/public/`
+- Página principal de Academia Beatmaker en `/`
+- Landing privada de Artist Lab en `/artist-lab/`
+- Exportación estática compatible con hosting tradicional
+- Imágenes necesarias para ambas páginas
+- Metadata `noindex` en Artist Lab
 
-## Paso 2 — Instalar dependencias (una sola vez)
+## Requisitos
 
-Abre la terminal dentro de la carpeta del proyecto y ejecuta:
+- Node.js 20.9 o superior
+- npm 10 o superior
+
+## Desarrollo local
 
 ```bash
 npm install
-```
-
-## Paso 3 — Probar en local (opcional)
-
-```bash
 npm run dev
 ```
 
-Abre tu navegador en: http://localhost:3000
+Abre:
 
-## Paso 4 — Subir a GitHub
+- `http://localhost:3000/`
+- `http://localhost:3000/artist-lab/`
 
-1. Ve a github.com y crea un repositorio nuevo llamado `academia-beatmaker`
-2. En la terminal ejecuta:
+## Crear archivos para el hosting
 
 ```bash
-git init
-git add .
-git commit -m "primera version academia beatmaker"
-git branch -M main
-git remote add origin https://github.com/TU_USUARIO/academia-beatmaker.git
-git push -u origin main
+rm -rf .next out
+npm run build
 ```
 
-(Reemplaza TU_USUARIO con tu usuario de GitHub)
+La carpeta que debes subir al hosting es `out/`.
 
-## Paso 5 — Deploy en Vercel
+Comprueba antes de subir que exista:
 
-1. Ve a vercel.com e inicia sesión con tu cuenta de GitHub
-2. Haz clic en "Add New Project"
-3. Selecciona el repositorio `academia-beatmaker`
-4. Vercel detecta Next.js automáticamente — haz clic en "Deploy"
-5. En 2 minutos tu sitio estará en vivo en una URL tipo: `academia-beatmaker.vercel.app`
-
-## Estructura del proyecto
-
+```text
+out/artist-lab/index.html
 ```
-academia-beatmaker/
-├── app/
-│   ├── globals.css
-│   ├── layout.js
-│   └── page.js          ← aquí está todo el contenido de la página
-├── public/
-│   └── dioalex.jpg      ← pon aquí la foto del instructor
-├── next.config.js
-├── package.json
-├── postcss.config.js
-└── tailwind.config.js
+
+## Publicación
+
+Sube **todo el contenido interno** de `out/` a la carpeta pública del dominio, normalmente `public_html`.
+
+La landing quedará en:
+
+```text
+https://www.dioalex.com/artist-lab/
 ```
+
+No subas la carpeta `app/` ni los archivos fuente directamente al hosting. El hosting debe recibir el contenido compilado de `out/`.

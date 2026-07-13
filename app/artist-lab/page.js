@@ -135,7 +135,7 @@ export default function ArtistLabPage() {
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-6 px-5 py-4 lg:px-8">
           <a href="#inicio" aria-label="Ir al inicio de Artist Lab">
             <img
-              src="/artist-lab/Artist_Lab_Principal_Fondo_Oscuro.svg"
+              src="/artist-lab/artist-lab-logo.png"
               alt="Artist Lab by Dioalex Beatz"
               className="h-auto w-[190px] sm:w-[245px]"
             />
@@ -408,7 +408,33 @@ export default function ArtistLabPage() {
           </div>
         </section>
 
-        
+        <section className="border-y border-zinc-800 bg-zinc-950">
+          <div className="mx-auto max-w-7xl px-5 py-24 lg:px-8 lg:py-32">
+            <p className="text-xs font-black uppercase tracking-[0.2em] text-[#FFD200]">
+              07 / Derechos y créditos
+            </p>
+
+            <div className="mt-8 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+              {[
+                ['100%', 'Letra', 'La participación correspondiente a la letra pertenece al compositor o compositores de la letra.'],
+                ['100%', 'Composición musical', 'La participación correspondiente a la composición musical pertenece a Dioalex Sánchez.'],
+                ['90 / 10', 'Máster', 'Salvo acuerdo distinto por escrito, el artista conserva 90% y Dioalex Sánchez 10% del máster y de sus ingresos netos.'],
+                ['Créditos', 'Dioalex Sánchez', 'Productor Musical, Ingeniero de Mezcla e Ingeniero de Mastering.'],
+              ].map(([number, title, text]) => (
+                <article key={title} className="border border-zinc-800 bg-black p-7">
+                  <strong className="text-3xl font-black text-[#FFD200]">{number}</strong>
+                  <h3 className="mt-5 text-2xl font-black">{title}</h3>
+                  <p className="mt-4 text-sm leading-relaxed text-zinc-400">{text}</p>
+                </article>
+              ))}
+            </div>
+
+            <p className="mt-7 max-w-4xl text-sm leading-relaxed text-zinc-500">
+              Los términos finales se documentan por escrito para cada obra y grabación. El
+              acuerdo de membresía se revisa y firma antes de iniciar.
+            </p>
+          </div>
+        </section>
 
         <section className="bg-[#171717]">
           <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 py-24 lg:grid-cols-2 lg:px-8 lg:py-32">
@@ -419,7 +445,7 @@ export default function ArtistLabPage() {
             />
             <div>
               <p className="text-xs font-black uppercase tracking-[0.2em] text-[#FFD200]">
-                07 / Respaldado por Dioalex Beatz
+                08 / Respaldado por Dioalex Beatz
               </p>
               <h2 className="mt-7 text-4xl font-black leading-tight tracking-[-0.045em] sm:text-5xl lg:text-6xl">
                 Un productor que conoce la música, el proceso y la realidad del artista
@@ -440,7 +466,7 @@ export default function ArtistLabPage() {
 
         <section className="mx-auto max-w-5xl px-5 py-24 lg:px-8 lg:py-32">
           <p className="text-xs font-black uppercase tracking-[0.2em] text-[#FFD200]">
-            08 / Preguntas frecuentes
+            09 / Preguntas frecuentes
           </p>
           <div className="mt-8 divide-y divide-zinc-800 border-y border-zinc-800">
             {faqItems.map((item) => (
